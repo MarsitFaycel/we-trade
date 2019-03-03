@@ -159,6 +159,11 @@
 <!-- Pricing Row -->
 <div class="w3-row-padding w3-center w3-padding-64" id="evenements">
 <div class="w3-quarter">signature du  convention groupe PI et BVMT
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="img/e1.png" style="width:100%">
+  <img class="mySlides" src="img/e2.png" style="width:100%">
+  <img class="mySlides" src="img/e3.png" style="width:100%">
+</div>
 
 </div>
    <div class="w3-quarter">premiére réunion</div>
@@ -245,6 +250,22 @@ function openNav() {
     x.className = x.className.replace(" w3-show", "");
   }
 }
+//slideshow
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
 </script>
 
 </body>

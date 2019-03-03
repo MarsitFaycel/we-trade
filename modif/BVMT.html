@@ -22,19 +22,16 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
-    
-	<a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
-  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
-  <a href="#objectif" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Objectif</a>
-  <a href="#evenements" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Evenements</a>
+  <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
+  <a href="index1.html#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="index1.html#objectif" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Objectif</a>
+  <a href="index1.html#evenements" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Evenements</a>
+  <a href="index1.html#partenaires" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Partenaires</a>
   
   
-  <a href="#partenaires" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Partenaires</a>
-  
-  
-  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  <a href="index1.html#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
     <div class="w3-dropdown-hover w3-hide-small">
     <button class="w3-button" title="Notifications">Education <i class="fa fa-caret-down"></i></button>     
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
@@ -42,17 +39,19 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       <a href="#" class="w3-bar-item w3-button">La théorie des Marchés</a>
       <a href="#" class="w3-bar-item w3-button">glossaire</a>
     </div>
-	
-	
-	<!--
-	<a href="#" class="w3-bar-item w3-button w3-theme-l1">Logo</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
-	-->
-  
-  
-  
   </div>
-	
+   </div>
+ 
+ <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="index1.html#team" class="w3-bar-item w3-button">Team</a>
+    <a href="index1.html#objectif" class="w3-bar-item w3-button">Objectif</a>
+	<a href="index1.html#evenements" class="w3-bar-item w3-button">Evenements</a>
+	<a href="index1.html#partenaires" class="w3-bar-item w3-button">Partenaires</a>
+  
+	<a href="#" class="w3-bar-item w3-button">Education</a>
+    <a href="index1.html#contact" class="w3-bar-item w3-button">Contact</a>
+    
   </div>
 </div>
 
@@ -63,8 +62,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   </a>
   <h4 class="w3-bar-item"><b>Menu</b></h4>
   <a class="w3-bar-item w3-button w3-hover-black" href="#introduction">Introduction</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Missions">Missions</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#LesAvantages">Les Avantages</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
 </nav>
 
@@ -77,17 +76,16 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <div class="w3-row w3-padding-64" id="introduction">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Introduction</h1>
-      <p>La Bourse de Tunis, appelée officiellement Bourse des Valeurs Mobilières de Tunis (BVMT) depuis le 15 novembre 1995, est une bourse basée à Tunis (Tunisie). Elle est responsable de la gestion, de la sécurité et de la promotion du marché tunisien des valeurs mobilières et ses actionnaires sont les sociétés d'intermédiation en bourse. Son principal indice boursier est le Tunindex..</p>
+      <p>La Bourse de Tunis, appelée officiellement Bourse des Valeurs Mobilières de Tunis (BVMT) depuis le 15 novembre 1995, est responsable de la gestion, de la sécurité et de la promotion du marché tunisien des valeurs mobilières .<br> Ses actionnaires sont les sociétés d'intermédiation en bourse.<br> Son principal indice boursier est le Tunindex..</p>
       <img src="bourse10.jpg" alt="Siège_BVMT2" style="width:45%" >
     </div>
-
     <div class="w3-third w3-container">
       <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
       <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
     </div>
   </div>
 
-  <div class="w3-row">
+  <div class="w3-row w3-padding-64" id="Missions">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Missions</h1>
       <p>La gestion du marché tunisien des valeurs mobilières par :
@@ -103,7 +101,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     </div>
   </div>
 
-  <div class="w3-row w3-padding-64">
+  <div class="w3-row w3-padding-64" id="LesAvantages">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal">Les avantages qu'offre la Bourse</h1>
       <p>
@@ -170,6 +168,16 @@ function w3_open() {
 function w3_close() {
   mySidebar.style.display = "none";
   overlayBg.style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
 }
 </script>
 
