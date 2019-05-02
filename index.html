@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>We TRADE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style1.css">
+<style>
+.active, .btn:hover {
+  background-color: white;
+  color: black;
+}
+</style>
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top" id="myDIV">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#acceuil" class="w3-bar-item w3-button w3-teal active">We Trade</a>
+  
+  <a href="#objectif" class="w3-bar-item w3-button w3-hide-small w3-hover-white ">Objectif</a>
+  <a href="#evenements" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Evenements</a>
+  
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white w3-visited-white ">Equipe</a>
+   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button w3-hover-white " title="Notifications">Education <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="BVMT.html" class="w3-bar-item w3-button">La BVMT</a>
+      <a href="gestionPortefeuille.html" class="w3-bar-item w3-button">Comment gérer son portefeuille</a>
+      <a href="glossaire.html" class="w3-bar-item w3-button">glossaire</a>
+    </div>
+  </div>
+  
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    
+    <a href="#objectif" class="w3-bar-item w3-button">Objectif</a>
+	<a href="#evenements" class="w3-bar-item w3-button">Evenements</a>
+	<a href="#team" class="w3-bar-item w3-button">Equipe</a>
+	<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+	<a href="BVMT.html" class="w3-bar-item w3-button">Education</a>
+    
+   
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity" id="acceuil">
+   <img src="stock-1863880_1920.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;"> 
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom" style="color:#01DF3A">
+<br> 
+  		<p><h3 style="font-style: italic;"> We Trade est un Club Ouvert à Tous les Etudiants de POLYTECH INTL GROUP <br>       <BLOCKQUOTE>     (Polytechnique Internationale & Law and Business School)   </h3></p>
+ 
+    <img src="logo.png" style="border-radius:50%; height:300px;width:300px;left:-10px">
+   
+  </div>
+</div>
+
+<!-- Presentation-->
+
+
+<!-- objectif-->
+<div class="w3-row-padding w3-padding-64 w3-theme-l4" id="objectif">
+
+<div class="w3-quarter">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Objectif</span></div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="short-term-trading.jpg" alt="Snow" style="width:100%;height:211px">
+  <div class="w3-container" style="height:330px">
+    <h3>Débuter en Trading</h3>
+  <h4>Notre objectif est d’organiser un programme de formations pour apprendre les éléments essentiels dont on a besoin pour s’initier au monde des marchés financiers et commencer le Trading dans les règles de l’art. </h4>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Bourse-2018-conseils.jpg" alt="Lights" style="width:100%;height:211px">
+  <div class="w3-container" style="height:330px">
+    <h3>Développer une culture boursière et financière</h3>
+  <h4> La Bourse joue un rôle essentiel dans l’économie d’un pays. A cet effet, nous cherchons à sensibiliser les étudiants au monde de la finance et de la bourse à travers l’organisation de différents évènements </h4> 
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="form.jpeg" alt="Mountains" style="width:100%;height:211px">
+  <div class="w3-container" style="height:330px">
+    <h3>Formations Certifiantes</h3>
+  <h4>Notre club organise en collaboration avec nos partenaires des formations certifiantes visant à valoriser les compétences de nos membres et faciliter leur insertion professionnelle.</h4>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Container -->
+
+
+<!-- evenement -->
+<div class="w3-row-padding w3-center w3-padding-64 w3-theme-l5" id="evenements">
+<div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar" bgcolor="#FEFEE2">Evenements</span></div>
+
+<div class="w3"> Visite  Conseil Du Marché Financier
+<div class="w3-content w3-section" style="max-width:700px">
+  <img class="cmf" src="img/cmf1.JPG" style="width:100%">
+  <img  class="cmf" src="img/cmf2.JPG" style="width:100%">
+  <img  class="cmf" src="img/cmf3.JPG" style="width:100%">
+  <img  class="cmf" src="img/cmf4.JPG" style="width:100%">
+  <img  class="cmf" src="img/cmf5.JPG" style="width:100%">
+  <img  class="cmf" src="img/cmf6.JPG" style="width:100%">
+  
+</div>
+
+</div>
+
+<div class="w3">Signature d'une convention  entre le groupe PI et la BVMT.
+<div class="w3-content w3-section" style="max-width:700px">
+  <img class="mySlides" src="img/e1.png" style="width:100%">
+  <img class="mySlides" src="img/e2.png" style="width:100%">
+  <img class="mySlides" src="img/e3.png" style="width:100%">
+</div>
+
+</div>
+
+<div class="w3-row-padding w3-center w3-padding-64" id="evenements">
+<div class="w3"> Autres Evenements
+<div class="w3-content w3-section" style="max-width:700px">
+  <img  class="autre" src="img/equipe.jpg" alt="snow" style="width:100%">
+  <img  class="autre" src="img/ihec.png" alt="snow" style="width:100%">
+</div>
+
+</div>
+   
+
+
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar" bgcolor="#FEFEE2">Our Team</span></div>
+
+
+
+<div class="w3-row"><br>
+
+<div class="w3-third">
+	<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+  <img src="img/kais.jpg" alt="Boss" style="width:300px; height:300px ;vertical-align: middle;" class=" w3-hover-opacity">
+  </div>
+
+  <!--<h3>Johnny Walker</h3>-->
+  <div class="flip-card-back">
+
+  <h1>Kais Ben Salem </h1>
+  <p>President</p>
+  <p> Etudiant En Mastère Finance</p>
+  <p>à Law &Business School</p>
+ 
+  </div>
+</div>
+
+</div>
+ </div>
+
+
+
+<div class="w3-third">
+	<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+  <img src="img/oussema.jpg" alt="Boss" style="width:300px; height:300px ;vertical-align: middle;" class=" w3-hover-opacity">
+  </div>
+
+  <!--<h3>Johnny Walker</h3>-->
+  <div class="flip-card-back">
+
+  <h1>Oussama El Wefi </h1>
+  <p>Vice President</p>
+  <p> Etudiant Mastère En Finance </p>
+  <p>à Law &Business School</p>
+ 
+  </div>
+</div>
+
+</div>
+ </div>
+
+
+
+
+
+<div class="w3-third">
+	<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+  <img src="img/wassim.jpg" alt="Boss" style="width:300px; height:300px ;vertical-align: middle;" class=" w3-hover-opacity">
+  </div>
+
+  <!--<h3>Johnny Walker</h3>-->
+  <div class="flip-card-back">
+
+  <h1>Wassim Selmi  </h1>
+  <p>Tresorier </p>
+  <p> Etudiant Mastère En Finance</p>.
+  <p>à Law &Business School</p>
+ 
+  </div>
+</div>
+
+</div>
+ </div>
+
+ <div></div>
+
+ <div class="w3-third">
+	<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+  <img src="img/omar.jpg" alt="Boss" style="width:300px; height:300px ;vertical-align: middle;" class=" w3-hover-opacity">
+  </div>
+
+  <!--<h3>Johnny Walker</h3>-->
+  <div class="flip-card-back">
+
+  <h1>Mohamed Omar Boubakri  </h1>
+  <p>Responsable Communication </p>
+  <p> Etudiant IT Finance à Polytech Intl</p>
+  <p> à Polytech Intl</p>
+ 
+  </div>
+</div>
+
+</div>
+ </div>
+
+ <div class="w3-third">
+	<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+  <img src="img/chaima.jpg" alt="Boss" style="width:300px; height:300px ;vertical-align: middle;" class=" w3-hover-opacity">
+  </div>
+
+  <!--<h3>Johnny Walker</h3>-->
+  <div class="flip-card-back">
+
+  <h1>Chaima Ben Amor </h1>
+  <p>Responsable Ressource Humaine </p>
+  <p> Etudiant IT Finance </p>
+  <p>à Polytech Intl</p>
+ 
+  </div>
+</div>
+
+</div>
+ </div>
+
+
+
+ <div class="w3-third">
+	<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+  <img src="img/faysel.jpg" alt="Boss" style="width:300px; height:300px ;vertical-align: middle;" class=" w3-hover-opacity">
+  </div>
+
+  <!--<h3>Johnny Walker</h3>-->
+  <div class="flip-card-back">
+
+  <h1>Faycel Marsit</h1>
+  <p>Responsable Communication </p>
+    <p> Etudiant IT Finance </p>
+  <p>à Polytech Intl</p>
+ 
+  </div>
+</div>
+
+</div>
+ </div>
+
+
+
+
+ <div class="w3-third">
+	<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+  <img src="img/Elyes.jpg" alt="Boss" style="width:300px; height:300px ;vertical-align: middle;" class=" w3-hover-opacity">
+  </div>
+
+  <!--<h3>Johnny Walker</h3>-->
+  <div class="flip-card-back">
+
+  <h1>Elyes Derouiche</h1>
+  <p>Responsable Communication </p>
+  <p> Etudiant Mastère En Finance</p>.
+  <p>à Law &Business School</p>
+ 
+  </div>
+</div>
+
+</div>
+ </div>
+
+
+
+<div class="w3-third">
+	<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+  <img src="img/slim.jpg" alt="Boss" style="width:300px; height:300px ;vertical-align: middle;" class=" w3-hover-opacity">
+  </div>
+
+  <!--<h3>Johnny Walker</h3>-->
+  <div class="flip-card-back">
+
+  <h1>Elyes Derouiche</h1>
+  <p>Responsable Communication </p>
+  <p> Etudiant IT Finance </p>
+  <p>à Polytech Intl</p>
+ 
+  </div>
+</div>
+
+</div>
+ </div>
+
+
+
+<div class="w3-third">
+	<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+  <img src="img/firas.jpg" alt="Boss" style="width:300px; height:300px ;vertical-align: middle;" class=" w3-hover-opacity">
+  </div>
+
+  <!--<h3>Johnny Walker</h3>-->
+  <div class="flip-card-back">
+
+  <h1>Firas Boufaden</h1>
+  <p>Responsable Sponsoring </p>
+  <p> Etudiant Licence En Commerce </p>
+  <p>à  Institut supérieur de commerce et d'administration des entreprises</p>
+ 
+  </div>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+
+ <br>
+<br>
+
+
+<!-- Contact Container -->
+
+<!-- Image of location/map -->
+<!--<img src="stock.jpg" class="w3-image w3-greyscale-min" style="width:100%;">-->
+<video style="width:100%;" controls>
+  <source src="video1.mp4" type="video/mp4">
+  
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>POLYTECH INTEL GROUP , Rue du Lac d'Annecy Les Berges du Lac 1053, Tunis, Tunisie</h3>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +216 70 026 426</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i> Contact@lbs.tn</p>
+
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i> Contact@pi.tn</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/law.and.business.school/" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/polytech_intl/?hl=fr" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="https://www.linkedin.com/school/polytechnique-internationale/" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+
+
+  <p>©2019 <a href="http:www.pi.tn" target="_blank">PI</a>-<a href="http:www.lbs.tn" target="_blank">LBS</a></p>
+  
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+//slideshow
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("w3-button");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+var myIndex2 = 0;
+carouse2();
+
+function carouse2() {
+  var i;
+  var x = document.getElementsByClassName("cmf");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex2++;
+  if (myIndex2 > x.length) {myIndex2 = 1}    
+  x[myIndex2-1].style.display = "block";  
+  setTimeout(carouse2, 3000); // Change image every 2 seconds
+}
+var myInd = 0;
+carouse3();
+
+function carouse3() {
+  var i;
+  var x = document.getElementsByClassName("autre");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myInd++;
+  if (myInd > x.length) {myInd= 1}    
+  x[myInd-1].style.display = "block";  
+  setTimeout(carouse3, 3000); // Change image every 2 seconds
+}
+
+
+
+</script>
+
+</body>
+</html>
